@@ -1,0 +1,30 @@
+.cards__button-container {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 45px 0 49px;
+  }
+  
+  .cards__button {
+    width: 100%;
+    padding: 10px 0 9px 0;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background-color: #f8f8f8;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    transition: opacity .2s linear;
+  }
+  
+  .cards__button:hover {
+    opacity: .6;
+    cursor: pointer;
+  }
+
+  @media all and (max-width: 540px) {
+    .cards__button-container {
+      max-width: 240px;
+    }
+  }
