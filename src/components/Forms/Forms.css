@@ -32,7 +32,7 @@
 }
 
 .form__title {
-    margin: 40px 0;
+    margin: 35px 0 39px;
     color: #000;
     font-size: 24px;
     font-style: normal;
@@ -51,7 +51,7 @@
 .form__items {
     display: flex;
     flex-direction: column;
-    row-gap: 18px;
+    row-gap: 10px;
 }
 
 .form__item {
@@ -101,7 +101,7 @@
 }
 
 .form__button {
-    margin-top: 134px;
+    margin-top: 149px;
     margin-bottom: 16px;
     color: #fff;
     padding: 13px 0 15px;

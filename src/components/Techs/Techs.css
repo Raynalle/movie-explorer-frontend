@@ -36,7 +36,7 @@
 }
 
 .technologies__subtitle {
-    max-width: 460px;
+    max-width: 465px;
     margin: 0 auto;
     color: #000;
     text-align: center;
@@ -58,7 +58,7 @@
 }
 
 .technologies__item {
-    width: 90px;
+    width: 38px;
     padding: 21px 26px 22px;
     border-radius: 10px;
     background-color: #E8E8E8;

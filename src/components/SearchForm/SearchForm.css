@@ -23,6 +23,7 @@
 
 .search-form__input:focus {
     outline: none;
+    color: #000;
 }
 
 .search-form__button {

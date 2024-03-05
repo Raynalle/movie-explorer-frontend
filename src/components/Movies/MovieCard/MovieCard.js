@@ -20,7 +20,7 @@ function MoviesCard({ card }) {
                     {pathname === '/saved-movies' ? (
                         <button className="card__button card__button_delete" type="button"></button>
                     ) : (
-                        <button className={`card__button card__button${favorite ? '_active' : '_noactive'}`} onClick={handleFavoriteToogle}></button>
+                        <button className={`card__button card__button${favorite ? '_active' : '_no-active'}`} onClick={handleFavoriteToogle}></button>
                     )}
                 </div>
             </div>

@@ -1,5 +1,8 @@
 .footer {
     padding: 79px 70px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .footer__title {
@@ -11,7 +14,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: 0;
+    margin: -26px 0 17px;
 }
 
 .footer__wrapper {

@@ -1,6 +1,6 @@
 .promo {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #073042;
     padding-top: 75px;
     padding-left: 70px;
@@ -39,7 +39,7 @@
 }
 
 .promo__anchor-link {
-    max-width: 129px;
+    max-width: 89px;
     padding: 10px 20px;
     border-radius: 3px;
     border: 1px solid rgba(255, 255, 255, .6);
@@ -60,6 +60,7 @@
 .promo__logo {
     width: 310px;
     height: 304px;
+    margin-right: 66px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {

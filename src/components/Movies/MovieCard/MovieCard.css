@@ -40,7 +40,7 @@
     cursor: pointer;
   }
   
-  .card__button_noactive {
+  .card__button_no-active {
     background: #f9f9f9 url(../../../images/like-no-active.svg) center no-repeat;
   }
   
