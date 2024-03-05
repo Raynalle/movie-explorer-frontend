@@ -5,14 +5,16 @@ import MovieesCard from "../MovieCard/MovieCard";
 function MoviesCardList({ cards}) {
 
     return (
-        <section className="cards">
-            <ul className="cards__list">
-                {cards && cards.map((card) => (
-                    <MovieesCard key = {card.id} card = {card} />
-                ))}
-            </ul>
+        <main className="main">
+            <section className="cards">
+                <ul className="cards__list">
+                    {cards && cards.map((card) => (
+                        <MovieesCard key = {card.id} card = {card} />
+                    ))}
+                </ul>
 
-        </section>
+            </section>
+        </main>
     )
 }
 

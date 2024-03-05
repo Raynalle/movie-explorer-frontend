@@ -94,6 +94,10 @@
     width: 144px;
   }
 
+  .header__nav-movie-link:hover {
+    opacity: .8;
+  }
+
   .header__nav-movie-link_color-white {
     color: #fff;
   }
@@ -114,6 +118,10 @@
     height: 32px;
     column-gap: 7px;
   }
+
+  .header__nav-movie-button:hover {
+    opacity: .8;
+  }
   
   .header__nav-movie-img {
     width: 12px;
@@ -127,6 +135,7 @@
     display: flex;
     flex-direction: row;
     column-gap: 16px;
+    margin: 2px 59px 0 0;
   }
 
   .header__nav-movie-button_green {

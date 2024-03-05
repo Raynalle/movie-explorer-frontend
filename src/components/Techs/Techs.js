@@ -15,8 +15,8 @@ function Technologies() {
                 <li className="technologies__item">JS</li>
                 <li className="technologies__item">React</li>
                 <li className="technologies__item">Git</li>
-                <li className="technologies__item">Express.js</li>
-                <li className="technologies__item">mongoDB</li>
+                <li className="technologies__item technologies__item_type_padding">Express.js</li>
+                <li className="technologies__item technologies__item_type_padding">mongoDB</li>
             </ul>
         </section>
     );

@@ -1,6 +1,7 @@
 .technologies {
     background-color: #F5F5F5;
-    padding: 100px 70px;
+    padding: 100px 70px 102px;
+    margin-top: -119px;
 }
 
 .technologies__header-title {
@@ -58,7 +59,7 @@
 }
 
 .technologies__item {
-    width: 38px;
+    width: 90px;
     padding: 21px 26px 22px;
     border-radius: 10px;
     background-color: #E8E8E8;
@@ -68,11 +69,17 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.56px;
+    box-sizing: border-box;
+}
+
+.technologies__item_type_padding {
+    padding-left: 13px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
     .technologies {
         padding: 90px 50px;
+        margin-top: -87px
     }
 
     .technologies__wrapper {
@@ -83,9 +90,13 @@
 
     .technologies__item {
         width: 84px;
-        padding: 21px 26px;
+        padding: 17px 26px;
         font-size: 12px;
         letter-spacing: -0.48px;
+    }
+
+    .technologies__item_type_padding {
+        padding: 16px;
     }
 
     .technologies__items {
@@ -97,6 +108,7 @@
     .technologies {
         background-color: #fff;
         padding: 70px 18px;
+        margin-top: 10px;
     }
 
     .technologies__header-title {
@@ -106,10 +118,9 @@
     }
 
     .technologies__wrapper {
-        margin-top: 60px;
-        margin-bottom: 70px;
-        padding: 0 -4px;
-        row-gap: 24px;
+        margin-top: 48px;
+        margin-bottom: 50px;
+        row-gap: 14px;
     }
 
     .technologies__title {

@@ -81,6 +81,10 @@
     line-height: normal;
 }
 
+.form__input:focus {
+    outline: none;
+}
+
 .form__input_error-color {
     color: #ff3055;
 }
@@ -139,6 +143,10 @@
     .form {
         padding: 232px 0;
     }
+
+    .form__button_type-login {
+        margin: 223px 0 16px;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -156,12 +164,29 @@
     }
 
     .form__button {
-        margin-top: 222px;
-        margin-bottom: 14px;
+        margin-top: 232px;
+        margin-bottom: 20px;
         font-size: 12px;
     }
 
     .form__subtitle {
         font-size: 12px;
+    }
+
+    .form__button_type-login {
+        margin-top: 307px;
+        margin-bottom: 14px
+    }
+
+    .form__item-data {
+        margin: 0 0 5px;
+    }
+
+    .form__input {
+        margin-top: -5px;
+    }
+
+    .form__item:last-of-type {
+        margin-top: 10px;
     }
 }

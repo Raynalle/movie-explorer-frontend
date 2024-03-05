@@ -16,14 +16,14 @@
 }
 
 .promo__title {
-    max-width: 640px;
+    max-width: 650px;
     margin-top: 0;
     margin-bottom: 36px;
     color: #fff;
-    font-size: 50px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 58px;
+    font-size: 50px;
+    line-height: 116%;
+    color: #fff;
 }
 
 .promo__subtitle {
@@ -50,7 +50,7 @@
     line-height: 16px;
     text-decoration: none;
     text-align: center;
-    margin: 0 0 75px;
+    margin: -1px 0 75px -2px;
 }
 
 .promo__anchor-link:hover {
@@ -88,7 +88,11 @@
     }
 
     .promo__anchor-link {
-        margin: 92px 0 76px;
+        margin: -56px 0 76px;
+    }
+
+    .promo__logo {
+        margin: 0;
     }
 }
 

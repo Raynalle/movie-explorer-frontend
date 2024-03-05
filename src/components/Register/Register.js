@@ -34,41 +34,43 @@ function Register() {
     };
 
     return(
-        <section className="form">
-            <div className="form__wrapper">
-                <Link to="/" className="form__link">
-                    <img className="form__logo" src={logo} alt="Логотип"/>
-                </Link>
-                <h2 className="form__title">Добро пожаловать!</h2>
-                <form className="form__inputs" onSubmit={handleSubmit}>
-                    <div className="form__items">
-                        <label className="form__item">
-                            <p className="form__item-data">Имя</p>
-                            <input className="form__input" name="name" placeholder="Введите ваше имя" value={inputValues.name || ''} onChange={handleInputCheck} required minLength={2} maxLength={10}/>
-                            <p className="form__input-error">Что-то пошло не так...</p>
-                        </label>
-                        <label className="form__item">
-                            <p className="form__item-data">E-mail</p>
-                            <input className={`form__input ${errors.email ? 'form__input_error-color' : ''}`} name="email" type="email" placeholder="Введите вашу почту"
-                            value={inputValues.email || ''}
-                            onChange={handleInputCheck} required/>
-                            <p className={`form__input-error ${errors.email ? 'form__input-error-display' : ''}`}>{errors.email}</p>
-                        </label>
-                        <label className="form__item">
-                            <p className="form__item-data">Пароль</p>
-                            <input className={`form__input ${errors.password ? 'form__input-error-display' : ''}`} name="password"
-                            type="password" placeholder="Введите пароль" required minLength={8} value={inputValues.password || ''}
-                            onChange={handleInputCheck}/>
-                            <p className={`form__input-error ${errors.password ? 'form__input-error-display' : ''}`}>{errors.password}</p>
-                        </label>
-                    </div>
-                    <button className={`form__button ${isValid ? "" : "form__button_disabled"}`} type="submit" disabled={!isValid ? true : ''}>Зарегистрироваться</button>
-                </form>
-                <p className="form__subtitle">Уже зарегистрированы?
-                  <Link to="/signin" className="form__link">Войти</Link>
-                </p>
-            </div>
-        </section>
+        <main className="main">
+            <section className="form">
+                <div className="form__wrapper">
+                    <Link to="/" className="form__link">
+                        <img className="form__logo" src={logo} alt="Логотип"/>
+                    </Link>
+                    <h1 className="form__title">Добро пожаловать!</h1>
+                    <form className="form__inputs" onSubmit={handleSubmit}>
+                        <div className="form__items">
+                            <label className="form__item">
+                                <p className="form__item-data">Имя</p>
+                                <input className="form__input" name="name" placeholder="Введите ваше имя" value={inputValues.name || ''} onChange={handleInputCheck} required minLength={2} maxLength={10}/>
+                                <p className="form__input-error">Что-то пошло не так...</p>
+                            </label>
+                            <label className="form__item">
+                                <p className="form__item-data">E-mail</p>
+                                <input className={`form__input ${errors.email ? 'form__input_error-color' : ''}`} name="email" type="email" placeholder="Введите вашу почту"
+                                value={inputValues.email || ''}
+                                onChange={handleInputCheck} required/>
+                                <p className={`form__input-error ${errors.email ? 'form__input-error-display' : ''}`}>{errors.email}</p>
+                            </label>
+                            <label className="form__item">
+                                <p className="form__item-data">Пароль</p>
+                                <input className={`form__input ${errors.password ? 'form__input-error-display' : ''}`} name="password"
+                                type="password" placeholder="Введите пароль" required minLength={8} value={inputValues.password || ''}
+                                onChange={handleInputCheck}/>
+                                <p className={`form__input-error ${errors.password ? 'form__input-error-display' : ''}`}>{errors.password}</p>
+                            </label>
+                        </div>
+                        <button className={`form__button ${isValid ? "" : "form__button_disabled"}`} type="submit" disabled={!isValid ? true : ''}>Зарегистрироваться</button>
+                    </form>
+                    <p className="form__subtitle">Уже зарегистрированы?
+                    <Link to="/signin" className="form__link">Войти</Link>
+                    </p>
+                </div>
+            </section>
+        </main>
     )
 }
 

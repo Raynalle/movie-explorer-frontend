@@ -21,16 +21,22 @@ function AboutMe() {
             <h4 className="about-me__portfolio">Портфолио</h4>
             <ul className="about-me__items">
                 <li className="about-me__item">
-                    <a className="about-me__url" href="https://github.com/Raynalle/how-to-learn" target="_blank" rel="noreferrer">Статичный сайт</a>
-                    <a className="about-me__link" href="https://github.com/Raynalle/how-to-learn" target="_blank" rel="noreferrer"><img className="about-me__arrow" src={arrowLink} alt="Ссылка"/></a>
+                    <a className="about-me__url" href="https://github.com/Raynalle/how-to-learn" target="_blank" rel="noreferrer">
+                        <p className="about-me__url-text">Статичный сайт</p>
+                        <img className="about-me__arrow" src={arrowLink} alt="Ссылка"/>
+                    </a>
                 </li>
                 <li className="about-me__item">
-                    <a className="about-me__url" href="https://github.com/Raynalle/russian-travel" target="_blank" rel="noreferrer">Адаптивный сайт</a>
-                    <a className="about-me__link" href="https://github.com/Raynalle/russian-travel" target="_blank" rel="noreferrer"><img className="about-me__arrow" src={arrowLink} alt="Ссылка"/></a>
+                    <a className="about-me__url" href="https://github.com/Raynalle/russian-travel" target="_blank" rel="noreferrer">
+                        <p className="about-me__url-text">Адаптивный сайт</p>
+                        <img className="about-me__arrow" src={arrowLink} alt="Ссылка"/>
+                    </a>
                 </li>
                 <li className="about-me__item">
-                    <a className="about-me__url" href="https://github.com/Raynalle/react-mesto-api-full-gha" target="_blank" rel="noreferrer">Одностраничное приложение</a>
-                    <a className="about-me__link" href="https://github.com/Raynalle/react-mesto-api-full-gha" target="_blank" rel="noreferrer"><img className="about-me__arrow" src={arrowLink} alt="Ссылка"/></a>
+                    <a className="about-me__url" href="https://github.com/Raynalle/react-mesto-api-full-gha" target="_blank" rel="noreferrer">
+                        <p className="abot-me__url-text">Одностраничное приложение</p>
+                        <img className="about-me__arrow" src={arrowLink} alt="Ссылка"/>
+                    </a>
                 </li>
             </ul>
         </section>
