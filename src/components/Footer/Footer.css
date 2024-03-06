@@ -3,6 +3,15 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
+    margin-top: 10px;
+}
+
+.footer_movies {
+    margin-top: 56px;
+}
+
+.footer_saved-movies {
+    margin-top: 159px;
 }
 
 .footer__title {
@@ -92,5 +101,9 @@
 
     .footer__navigate-link {
         font-size: 12px;
+    }
+    
+    .footer_saved-movies {
+        margin-top: 174px;
     }
 }

@@ -6,10 +6,8 @@ import savedMovies from '../../utils/savedMovies';
 function SavedMovies() {
     return (
         <>
-        <main className='main'>
           <SearchForm />
           <MoviesCardList cards={savedMovies} buttonMore={false} />
-        </main>
         </>
     )
 }

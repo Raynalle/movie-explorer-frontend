@@ -1,11 +1,12 @@
-.cards__button-container {
+.more__container {
     width: 100%;
     max-width: 320px;
     margin: 0 auto;
     padding: 45px 0 49px;
+    cursor: pointer;
   }
   
-  .cards__button {
+  .more__button {
     width: 100%;
     padding: 10px 0 9px 0;
     outline: none;
@@ -18,13 +19,12 @@
     transition: opacity .2s linear;
   }
   
-  .cards__button:hover {
+  .more:hover {
     opacity: .6;
-    cursor: pointer;
   }
 
   @media all and (max-width: 540px) {
-    .cards__button-container {
+    .more__container {
       max-width: 240px;
     }
   }

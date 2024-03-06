@@ -34,7 +34,7 @@ function AboutMe() {
                 </li>
                 <li className="about-me__item">
                     <a className="about-me__url" href="https://github.com/Raynalle/react-mesto-api-full-gha" target="_blank" rel="noreferrer">
-                        <p className="abot-me__url-text">Одностраничное приложение</p>
+                        <p className="about-me__url-text">Одностраничное приложение</p>
                         <img className="about-me__arrow" src={arrowLink} alt="Ссылка"/>
                     </a>
                 </li>

@@ -21,6 +21,7 @@
 .search-form__input:focus {
     outline: none;
     color: #000;
+    background-color: yellow;
 }
 
 .search-form__button {

@@ -3,7 +3,7 @@ import SearchForm from "../SearchForm/SearchForm";
 import MoviesCardList from "../Movies/MoviesCardList/MoviesCardList";
 import posts from '../../utils/movies';
 import Preloader from "../Preloader/Preloader";
-import MoreButton from "./MoreButton/MoreButton";
+import "./MoreButton.css";
 
 let arrayForHoldingPosts = [];
 
@@ -64,8 +64,12 @@ const Movies = () => {
           {isPreloaderEnable 
           ? <Preloader /> 
           :
-          <MoreButton onClick={handleShowMorePosts}/>
-          }          
+          <section className="more">
+            <div className="more__container">
+              <button className="more__button" type="button" name="more" onClick={handleShowMorePosts}>Ещё</button>
+            </div>
+          </section>
+          }
         </>
     );
 };

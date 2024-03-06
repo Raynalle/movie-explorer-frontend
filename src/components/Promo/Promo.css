@@ -24,6 +24,7 @@
     font-size: 50px;
     line-height: 116%;
     color: #fff;
+    white-space: pre;
 }
 
 .promo__subtitle {

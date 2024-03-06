@@ -83,6 +83,7 @@
 
 .form__input:focus {
     outline: none;
+    background-color: yellow;
 }
 
 .form__input_error-color {
