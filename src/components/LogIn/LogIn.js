@@ -64,7 +64,7 @@ function LogIn() {
                         </div>
                         <button className={`form__button form__button_type-login ${isValid ? "" : "form__button_disabled"}`} type="submit" disabled={!isValid ? true : ''}>Войти</button>
                     </form>
-                    <p className="form__subtitle">Ещё не зарегистрированы?
+                    <p className="form__subtitle form__subtitle_login">Ещё не зарегистрированы?
                     <Link to="/signup" className="form__link">Регистрация</Link>
                     </p>
                 </div>

@@ -32,7 +32,7 @@
     }
   
     .cards__list {
-      padding: 40px 0 0;
+      padding: 40px 10px 0;
       gap: 18px 20px;
       margin: -10px -14px;
       justify-content: center;

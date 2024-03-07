@@ -16,15 +16,13 @@
 }
 
 .promo__title {
-    max-width: 650px;
+    max-width: 640px;
     margin-top: 0;
     margin-bottom: 36px;
-    color: #fff;
     font-weight: 400;
     font-size: 50px;
     line-height: 116%;
     color: #fff;
-    white-space: pre;
 }
 
 .promo__subtitle {
@@ -61,7 +59,7 @@
 .promo__logo {
     width: 310px;
     height: 304px;
-    margin-right: 66px;
+    margin-right: 70px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {

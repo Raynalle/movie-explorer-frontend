@@ -121,6 +121,10 @@
     border-radius: 3px;
 }
 
+.form__button_type-login {
+    margin-top: 222px;
+}
+
 .form__button_disabled {
     background-color: lightgray;
     cursor: default;

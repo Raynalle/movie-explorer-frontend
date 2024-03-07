@@ -116,7 +116,7 @@
     align-items: flex-end;
     justify-content: center;
     column-gap: 7px;
-    padding-bottom: 234px;
+    padding-bottom: 89px;
     cursor: pointer;
   }
 
@@ -178,8 +178,7 @@
     }
 
     .burger-menu__container {
-      margin-top: 268px;
-      margin-left: 11px;
+      margin-top: 367px;
       align-items: center;
       padding: 10px 0 0;
     }
