@@ -1,0 +1,11 @@
+.App {
+  display: grid;
+  grid-template-columns: minmax(320px, 1280px);
+  justify-content: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
