@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import './Navigation.css';
 import { Link, NavLink } from "react-router-dom";
 
 function Navigation({loggedIn}) {
-    const [isClicked, setIsClicked] = React.useState(false);
+    const [isClicked, setIsClicked] = useState(false);
 
     function handleNavOpen() {
         setIsClicked(true);

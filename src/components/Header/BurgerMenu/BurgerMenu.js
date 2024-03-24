@@ -2,13 +2,15 @@ import React from "react";
 import './BurgerMenu.css';
 import "../Header.css";
 
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import accauntLogo from "../../../images/accaunt-logo.svg";
 
 function BurgerMenu({isOpen, setIsBurgerOpen}) {
     const [isBurgerMenuOpenButton, setIsBurgerMenuOpenButton] = React.useState("burger-menu__button");
     const [isBurgerMenuOpenNav, setIsBurgerMenuOpenNav] = React.useState("burger-menu__navigation");
     const [isBurgerMenuCloseActive, setIsBurgerMenuCloseActive] = React.useState("burger-menu__close-button");
+
+    const { location } = useLocation();
 
     function handleButtonClick() {
         if (isBurgerMenuOpenButton.includes('active')) {
@@ -21,7 +23,6 @@ function BurgerMenu({isOpen, setIsBurgerOpen}) {
             setIsBurgerMenuCloseActive("burger-menu__close-button active");
         }
     };
-
     return (
         <section className="burger-menu">
             <button onClick={handleButtonClick} className={isBurgerMenuOpenButton}></button>
